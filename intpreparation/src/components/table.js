@@ -1,0 +1,29 @@
+export default function Table(){
+    return(
+        <>
+        <table>
+            <thead>
+                <tr>
+                <th>name</th>
+                <th>class</th>
+                </tr>
+               
+            </thead>
+            <tbody>
+                <tr>
+                    <td>poonam</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>poonam</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>poonam</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+        </>
+    )
+}

@@ -15,10 +15,23 @@ import useCounter from './components/usecounter';
 import { useState } from 'react';
 import Counter from './components/counter';
 import Login from './components/login';
+import Counters from './components/counters';
+import { useContext } from 'react';
+import { counterContext } from './components/context/counterContext';
+import CounterComp from './components/countercomponent';
+import ItemList from './components/list';
+import Toogle from './components/toogle';
+import Display from './components/display';
 
 function App() {
+
+    const counterState=useContext(counterContext);
 return(
-<Login/>
+    <>
+<Display/>
+
+    </>
+
 )
  
 }

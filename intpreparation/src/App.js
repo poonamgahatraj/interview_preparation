@@ -22,14 +22,14 @@ import CounterComp from './components/countercomponent';
 import ItemList from './components/list';
 import Toogle from './components/toogle';
 import Display from './components/display';
+import FormDetails from './components/formdetail';
 
 function App() {
 
     const counterState=useContext(counterContext);
 return(
     <>
-<Display/>
-
+<FormDetails/>
     </>
 
 )

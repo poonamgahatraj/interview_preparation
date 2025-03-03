@@ -19,5 +19,7 @@ function useFetch(url){
             setIsError(err)
             setIsLoading(false)
         })
-    })
+    },[url])
+
+    return{data,isLoading,isError}
 }

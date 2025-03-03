@@ -23,13 +23,14 @@ import ItemList from './components/list';
 import Toogle from './components/toogle';
 import Display from './components/display';
 import FormDetails from './components/formdetail';
+import Todo from './components/todolist';
 
 function App() {
 
     const counterState=useContext(counterContext);
 return(
     <>
-<FormDetails/>
+<Todo/>
     </>
 
 )
